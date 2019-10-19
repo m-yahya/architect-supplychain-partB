@@ -1,48 +1,48 @@
 # Fair Trade Coffee
 Prove the authenticity of coffee using the Ethereum blockchain.
 
-* 1. [Description](#Description)
-* 2. [User Interface](#UserInterface)
-		* 2.1. [Product Overview Section](#ProductOverviewSection)
-		* 2.2. [Farm Details Section](#FarmDetailsSection)
-		* 2.3. [Product Details Section](#ProductDetailsSection)
-		* 2.4. [Transaction History Section](#TransactionHistorySection)
-* 3. [Getting Started](#GettingStarted)
-	* 3.1. [Prerequisites](#Prerequisites)
-	* 3.2. [Installing](#Installing)
-* 4. [Deployed Contract (Rinkeby)](#DeployedContractRinkeby)
-* 5. [Built With](#BuiltWith)
-* 6. [Contributing](#Contributing)
-* 7. [Acknowledgments](#Acknowledgments)
+* [Description](#description)
+* [User Interface](#user-interface)
+    * [Product Overview Section](#product-overview-section)
+    * [Farm Details Section](#farm-details-section)
+    * [Product Details Section](#product-details-section)
+    * [Transaction History Section](#transaction-history-section)
+* [Getting Started](#getting-started)
+* [Prerequisites](#prerequisites)
+* [Installing](#installing)
+* [Deployed Contract (Rinkeby)](#deployed-contract-rinkeby)
+* [Built With](#built-with)
+* [Contributing](#contributing)
+* [Acknowledgments](#acknowledgments)
 
-##  1. <a name='Description'></a>Description
+## Description
 This repository containts an Ethereum DApp that demonstrates a Supply Chain flow between a Seller and Buyer. The user story is similar to any commonly used supply chain process. A Seller can add items to the inventory system stored in the blockchain. A Buyer can purchase such items from the inventory system. Additionally a Seller can mark an item as Shipped, and similarly a Buyer can mark an item as Received.
 
-##  2. <a name='UserInterface'></a>User Interface
+## User Interface
 The DApp User Interface when running has following sections:
 
-####  2.1. <a name='ProductOverviewSection'></a>Product Overview Section
+#### Product Overview Section
 User can fetch product overview from this section.
 ![truffle test](images/ftc_product_overview.png)
 
-####  2.2. <a name='FarmDetailsSection'></a>Farm Details Section
+#### Farm Details Section
 This section exposes `harvestItem()`, `processItem()`,`packItem()`, and `sellItem()` functionalities to farmer.
 ![truffle test](images/ftc_farm_details.png)
 
-####  2.3. <a name='ProductDetailsSection'></a>Product Details Section
+#### Product Details Section
 In this section `buyItem()`, `shipItem()`,`receiveItem()`, and `buyItem()` functionalities are available.
 ![truffle test](images/ftc_product_details.png)
 
-####  2.4. <a name='TransactionHistorySection'></a>Transaction History Section
+#### Transaction History Section
 All the transaction IDs are listed in this section.
 ![truffle test](images/ftc_transaction_history.png)
 
 
-##  3. <a name='GettingStarted'></a>Getting Started
+## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
-###  3.1. <a name='Prerequisites'></a>Prerequisites
+### Prerequisites
 
 Please make sure you've already installed ganache-cli, Truffle and enabled MetaMask extension in your browser.
 
@@ -52,7 +52,7 @@ Please make sure you've already installed ganache-cli, Truffle and enabled MetaM
 * Node v10.16.3
 ```
 
-###  3.2. <a name='Installing'></a>Installing
+### Installing
 
 A step by step series of examples that tell you have to get a development env running
 
@@ -109,22 +109,22 @@ All 10 tests should pass.
 npm run dev
 ```
 
-##  4. <a name='DeployedContractRinkeby'></a>Deployed Contract (Rinkeby) 
-* Transaction ID – 0x679b48a0c6b3ff6acfbce1c9ed1b7257e89d23252c77a802889d9903921c3969 
+## Deployed Contract (Rinkeby)
+* Transaction ID – 0x679b48a0c6b3ff6acfbce1c9ed1b7257e89d23252c77a802889d9903921c3969
 * Contract ID – 0xb6b419a8aa8a10c8b3744c3646590811e571e157
 
 * https://rinkeby.etherscan.io/address/0xb6b419a8aa8a10c8b3744c3646590811e571e157
 
 ![truffle test](images/truffle_migrate.png)
-##  5. <a name='BuiltWith'></a>Built With
+## Built With
 
 * [Ethereum](https://www.ethereum.org/) - Ethereum is a decentralized platform that runs smart contracts
 * [IPFS](https://ipfs.io/) - IPFS is the Distributed Web | A peer-to-peer hypermedia protocol
 to make the web faster, safer, and more open.
 * [Truffle Framework](http://truffleframework.com/) - Truffle is the most popular development framework for Ethereum with a mission to make your life a whole lot easier.
 
-##  6. <a name='Contributing'></a>Contributing
-Pull requests are welcome. 
+## Contributing
+Pull requests are welcome.
 
 1. Fork the repository.
 2. Create your new feature branch: `git checkout -b new-feature-branch`
@@ -133,7 +133,7 @@ Pull requests are welcome.
 5. `push` to the branch: `git push origin new-feature-branch`
 6. Submit a `pull request`.
 
-##  7. <a name='Acknowledgments'></a>Acknowledgments
+## Acknowledgments
 
 * Solidity
 * Ganache-cli
