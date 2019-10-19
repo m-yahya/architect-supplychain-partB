@@ -1,19 +1,19 @@
 # Fair Trade Coffee
 Prove the authenticity of coffee using the Ethereum blockchain.
 
-1. [Description](#Description)
-2. [User Interface](#UserInterface)
-		2.1. [Product Overview Section](#ProductOverviewSection)
-		2.2. [Farm Details Section](#FarmDetailsSection)
-		2.3. [Product Details Section](#ProductDetailsSection)
-		2.4. [Transaction History Section](#TransactionHistorySection)
-3. [Getting Started](#GettingStarted)
-	3.1. [Prerequisites](#Prerequisites)
-	3.2. [Installing](#Installing)
-4. [Deployed Contract (Rinkeby)](#DeployedContractRinkeby)
-5. [Built With](#BuiltWith)
-6. [Contributing](#Contributing)
-7. [Acknowledgments](#Acknowledgments)
+* 1. [Description](#Description)
+* 2. [User Interface](#UserInterface)
+		* 2.1. [Product Overview Section](#ProductOverviewSection)
+		* 2.2. [Farm Details Section](#FarmDetailsSection)
+		* 2.3. [Product Details Section](#ProductDetailsSection)
+		* 2.4. [Transaction History Section](#TransactionHistorySection)
+* 3. [Getting Started](#GettingStarted)
+	* 3.1. [Prerequisites](#Prerequisites)
+	* 3.2. [Installing](#Installing)
+* 4. [Deployed Contract (Rinkeby)](#DeployedContractRinkeby)
+* 5. [Built With](#BuiltWith)
+* 6. [Contributing](#Contributing)
+* 7. [Acknowledgments](#Acknowledgments)
 
 ##  1. <a name='Description'></a>Description
 This repository containts an Ethereum DApp that demonstrates a Supply Chain flow between a Seller and Buyer. The user story is similar to any commonly used supply chain process. A Seller can add items to the inventory system stored in the blockchain. A Buyer can purchase such items from the inventory system. Additionally a Seller can mark an item as Shipped, and similarly a Buyer can mark an item as Received.
